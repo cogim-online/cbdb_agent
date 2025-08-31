@@ -187,6 +187,14 @@ https://USERNAME.github.io/REPO_NAME/index.html
 2. Ensure all dependencies are in `package.json`
 3. Test build locally: `npm run build`
 
+### Deprecated Actions Error
+
+**Problem**: "deprecated version of actions/upload-artifact" error
+**Solution**: The workflow has been updated to use the latest action versions:
+- ✅ `actions/upload-pages-artifact@v3`
+- ✅ `actions/deploy-pages@v4` 
+- ✅ Node.js 20 LTS
+
 ### 404 Page Not Found
 
 **Problem**: GitHub Pages shows 404
