@@ -1,0 +1,33 @@
+{
+  "streamlit": {
+    "url": "https://llamac.streamlit.app/",
+    "embedUrl": "https://llamac.streamlit.app/?embed=true",
+    "loadTimeout": 8000,
+    "detectionTimeout": 3000
+  },
+  "app": {
+    "name": "CBDB Agentic RAG Chat",
+    "version": "1.0.0",
+    "defaultLanguage": "en",
+    "supportedLanguages": ["en", "zh"],
+    "basePath": "/cbdb_agent/"
+  },
+  "ui": {
+    "features": {
+      "languageToggle": true,
+      "fullscreenMode": true,
+      "keyboardShortcuts": true,
+      "statusBar": true,
+      "mobileMenu": true
+    },
+    "animations": {
+      "enableAnimations": true,
+      "transitionDuration": 300,
+      "hoverEffects": true
+    }
+  },
+  "dev": {
+    "debug": false,
+    "logTranslations": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "config": {
+    "streamlitUrl": "https://llamac.streamlit.app/",
+    "embedUrl": "https://llamac.streamlit.app/?embed=true"
+  },
+  "app": {
+    "title": "CBDB Agentic RAG Chat",
+    "subtitle": "Advanced AI-powered Retrieval Augmented Generation",
+    "description": "Intelligent document analysis and conversational AI system"
+  },
+  "nav": {
+    "about": "About",
+    "fullscreen": "Fullscreen",
+    "refresh": "Refresh",
+    "language": "Language",
+    "refreshApp": "Refresh App"
+  },
+  "buttons": {
+    "visitDirect": "Issues? Visit Streamlit direct",
+    "launchApp": "Launch RAG Chat",
+    "gotIt": "Got it!",
+    "retry": "Retry Loading"
+  },
+  "status": {
+    "connecting": "Connecting...",
+    "connected": "Connected to RAG System",
+    "failed": "Connection failed",
+    "loading": "Loading RAG Chat App",
+    "initializing": "Initializing AI system..."
+  },
+  "features": {
+    "conversations": {
+      "title": "Smart Conversations",
+      "description": "Natural language processing with document context"
+    },
+    "retrieval": {
+      "title": "Document Retrieval",
+      "description": "Advanced search and knowledge extraction from documents"
+    },
+    "generation": {
+      "title": "AI Generation",
+      "description": "Context-aware content generation and analysis"
+    }
+  },
+  "fallback": {
+    "title": "CBDB Agentic RAG Chat",
+    "description": "Experience the full power of our Retrieval Augmented Generation system in its native environment. Due to browser security policies, we'll redirect you to the official app for the best user experience.",
+    "benefits": {
+      "experience": "Best Experience: Opens in a new tab with full functionality",
+      "secure": "Secure: Direct connection to Streamlit Cloud",
+      "mobile": "Mobile Ready: Optimized for all devices"
+    }
+  },
+  "modal": {
+    "aboutTitle": "About CBDB Agentic RAG Chat",
+    "aboutDescription": "This web application provides access to our advanced Retrieval Augmented Generation (RAG) system hosted on Streamlit Cloud. Built with Vite and Tailwind CSS for optimal performance and user experience.",
+    "features": {
+      "streamlit": "Powered by Streamlit Cloud",
+      "tech": "Built with Vite & Tailwind CSS",
+      "deployment": "Deployed on GitHub Pages"
+    }
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "launch": "Launch app",
+    "refresh": "Refresh",
+    "fullscreen": "Fullscreen",
+    "info": "Info"
+  }
+}

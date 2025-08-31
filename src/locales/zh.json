@@ -1,0 +1,70 @@
+{
+  "config": {
+    "streamlitUrl": "https://llamac.streamlit.app/",
+    "embedUrl": "https://llamac.streamlit.app/?embed=true"
+  },
+  "app": {
+    "title": "CBDB 智能RAG对话",
+    "subtitle": "高级AI驱动的检索增强生成系统",
+    "description": "智能文档分析和对话AI系统"
+  },
+  "nav": {
+    "about": "关于",
+    "fullscreen": "全屏",
+    "refresh": "刷新",
+    "language": "语言",
+    "refreshApp": "刷新应用"
+  },
+  "buttons": {
+    "visitDirect": "有问题？直接访问Streamlit",
+    "launchApp": "启动RAG对话",
+    "gotIt": "明白了！",
+    "retry": "重新加载"
+  },
+  "status": {
+    "connecting": "连接中...",
+    "connected": "已连接到RAG系统",
+    "failed": "连接失败",
+    "loading": "加载RAG对话应用",
+    "initializing": "初始化AI系统..."
+  },
+  "features": {
+    "conversations": {
+      "title": "智能对话",
+      "description": "基于文档上下文的自然语言处理"
+    },
+    "retrieval": {
+      "title": "文档检索",
+      "description": "高级搜索和文档知识提取"
+    },
+    "generation": {
+      "title": "AI生成",
+      "description": "上下文感知的内容生成和分析"
+    }
+  },
+  "fallback": {
+    "title": "CBDB 智能RAG对话",
+    "description": "在原生环境中体验我们检索增强生成系统的全部功能。由于浏览器安全策略，我们将重定向您到官方应用以获得最佳用户体验。",
+    "benefits": {
+      "experience": "最佳体验：在新标签页中打开，功能完整",
+      "secure": "安全：直接连接到Streamlit云",
+      "mobile": "移动就绪：为所有设备优化"
+    }
+  },
+  "modal": {
+    "aboutTitle": "关于CBDB智能RAG对话",
+    "aboutDescription": "此Web应用程序提供对托管在Streamlit云上的高级检索增强生成（RAG）系统的访问。使用Vite和Tailwind CSS构建，以获得最佳性能和用户体验。",
+    "features": {
+      "streamlit": "由Streamlit云驱动",
+      "tech": "使用Vite和Tailwind CSS构建",
+      "deployment": "部署在GitHub Pages"
+    }
+  },
+  "shortcuts": {
+    "title": "键盘快捷键",
+    "launch": "启动应用",
+    "refresh": "刷新",
+    "fullscreen": "全屏",
+    "info": "信息"
+  }
+}
