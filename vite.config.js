@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/cbdb_agent/', // This should match your GitHub repository name
+  base: '/', // Custom domain - no subdirectory needed
   build: {
     outDir: 'dist',
     assetsDir: 'assets',

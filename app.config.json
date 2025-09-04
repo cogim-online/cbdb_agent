@@ -10,7 +10,7 @@
     "version": "1.0.0",
     "defaultLanguage": "en",
     "supportedLanguages": ["en", "zh"],
-    "basePath": "/cbdb_agent/"
+    "basePath": "/"
   },
   "ui": {
     "features": {

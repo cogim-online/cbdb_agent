@@ -19,18 +19,18 @@ Before you begin, make sure you have:
 4. **Don't initialize** with README, .gitignore, or license (we already have these)
 5. **Click "Create repository"**
 
-### Step 2: Configure Repository Name
+### Step 2: Configure Domain
 
-Before pushing, update the repository name in your configuration:
+This project is configured for the custom domain `cbdb.cogim.online`. The configuration is already set:
 
+✅ **vite.config.js**: `base: '/'` (custom domain, no subdirectory)
+✅ **public/CNAME**: Contains `cbdb.cogim.online`
+✅ **app.config.json**: `basePath: '/'`
+
+**If using a different domain**, update:
 ```bash
-# Edit vite.config.js - update the base path to match your repo name
-# Change line 4: base: '/your-repo-name/',
-```
-
-**Example:** If your repo is named `my-rag-chat`, change:
-```js
-base: '/my-rag-chat/',
+# Edit public/CNAME with your domain
+echo "yourdomain.com" > public/CNAME
 ```
 
 ### Step 3: Push Your Code
@@ -69,7 +69,7 @@ git push -u origin main
 2. **Watch the deployment** workflow run (takes 2-3 minutes)
 3. **Once complete**, your app will be available at:
    ```
-   https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/
+   https://cbdb.cogim.online/
    ```
 
 ## 🎉 That's It!
@@ -106,18 +106,18 @@ Edit `src/locales/en.json` and `src/locales/zh.json`:
 }
 ```
 
-### Custom Domain (Optional)
+### Custom Domain Setup
 
-If you want to use a custom domain:
+This project is already configured for `cbdb.cogim.online`:
 
-1. **Add CNAME file** in the `public/` directory:
-   ```bash
-   mkdir public
-   echo "yourdomain.com" > public/CNAME
+1. **CNAME file** is already created in `public/CNAME`
+2. **DNS Configuration**: Point your domain to GitHub Pages:
    ```
-
-2. **Configure your domain** DNS to point to GitHub Pages
-3. **Enable custom domain** in repository Settings → Pages
+   Type: CNAME
+   Name: cbdb (or @)
+   Value: YOUR_USERNAME.github.io
+   ```
+3. **Enable in GitHub**: Repository Settings → Pages → Custom domain → `cbdb.cogim.online`
 
 ## 🔄 Updating Your Deployment
 
