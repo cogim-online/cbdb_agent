@@ -1,7 +1,7 @@
 {
   "streamlit": {
-    "url": "https://llamac.streamlit.app/",
-    "embedUrl": "https://llamac.streamlit.app/?embed=true",
+    "url": "https://cbdbchat.streamlit.app/",
+    "embedUrl": "https://cbdbchat.streamlit.app/?embed=true",
     "loadTimeout": 8000,
     "detectionTimeout": 3000
   },
